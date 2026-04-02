@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylo.css">
+    <link rel="stylesheet" href="media-query.css">
     <title>Login</title>
 </head>
 <body>
@@ -13,9 +14,11 @@
                 <img id="img" src="img/theanandthakur-building-6011756_640.jpg" alt="Predio">
             </div>
             <div class="tela-log">
-                <h1>Login</h1>
+                <h1 class="log">Login</h1>
                 <p>Seja Bem Vindo de volta a nossa tela de login.</p>
                 <form action="php.com">
+                    <label class="log" for="iusu">Usuario:</label>
+                <input class="caixa" type="text" name="iusu" id="iusu" required minlength="10"max-length="10"size="30" placeholder="E-mail do Usuario" autocomplete="username">
 
                 </form>
             </div>
