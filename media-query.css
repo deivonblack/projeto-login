@@ -23,6 +23,13 @@
         gap: 10px;
     
     }
+.butão {
+     background-color: #5f2c82;
+     transition: backgroud-color 0.2 ease ;
+}
+.butão:hover {
+    background-color: #49a09d;
+}
     .tela-log {
      flex: 1;
      display: flex;
@@ -53,6 +60,13 @@
         gap: 10px;
     
     }
+.butão {
+     background-color: #5f2c82;
+     transition: backgroud-color 0.2 ease ;
+}
+.butão:hover {
+    background-color: #49a09d;
+}
     .tela-log {
      flex: 1;
      display: flex;
