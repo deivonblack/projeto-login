@@ -57,18 +57,25 @@ section {
     border-radius: 7px;
     background-color:rgba(255, 255, 255, 0.635);
 }
-.butão {
-    margin: 10px;
-    font-size: 1.2em;
+.butão { 
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    padding: 12px;
+    margin: 0 auto;
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: bold;
     background-color: #602c82c7;
-    border: transparent;
-    border-radius: 30px;
+    border: none;
+    border-radius: 8px;
     box-shadow: 1px 1px 1px 1px #602c8289;
 }
 .esqui {
+    text-align: center;
     font-size: .9rem;
     padding: 12px;
-    margin: 25px;
+    margin: 59px;
 }
 .tela-log {
     display: block;
